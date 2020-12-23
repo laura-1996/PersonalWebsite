@@ -1,0 +1,257 @@
+body{
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+  }
+  
+  h1{
+    color: #0fbfc7;
+    font-size: 5.625rem ;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+  }
+  
+  h2{
+      color: #0fbfc7;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+  }
+  
+  h3{
+    color:#07a9b1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+  }
+  
+  p{
+    line-height: 2;
+  }
+  
+  hr{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+  }
+  
+  a{
+    color: #088d94;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color:#EAF6F6;
+  }
+  
+  #countdown {
+    font-size: 2rem;
+    color: #11999e;
+  }
+  
+  .main-nav {
+    margin-left: 60%;
+    list-style: none;
+    margin-top: 0px;
+    position: absolute;
+  }
+  
+  .main-nav li {
+    display: inline-block;
+    
+  }
+  
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    padding: 8px 0;
+    color: #07a9b1;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+  }
+  
+  .main-nav li a:hover,
+  .main-nav li a:active {
+    border-bottom: 2px solid #07a9b1;
+  }
+  
+  
+  .top-container {
+    background-color: #e2feff;
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 25px;
+  }
+  
+  .middle-container {
+  margin: 100px 0;
+  }
+  
+  footer {
+    background-color: #5acbd0;
+    padding:75px;
+  }
+  
+  .profile{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: center;
+  }
+  
+  .goal-why{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+  }
+  
+  .contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+  }
+  
+  .copywright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+  }
+  
+  .beach{
+    width: 300px;
+  }
+  
+  .top-cloud{
+    width: 150px;
+    position: absolute;
+    left: 250px;
+    top: 10px;
+  }
+  
+  .bottom-cloud{
+    width: 150px;
+    position: absolute;
+    right: 250px;
+    bottom: 350px;
+  }
+  
+  
+  .Laura{
+    width: 25%;
+  }
+  
+  .goalimg {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+  }
+  
+  .whyimg{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+  }
+  
+  
+  .btn {
+    background: #11cdd4;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    padding: 15px 30px;
+    height: 55px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #69cfd4;
+    
+    text-decoration: none;
+  }
+  
+  .header{
+    text-align: center;
+  }
+  
+  .input{
+    text-align: center;
+    margin: 100px auto;
+  }
+  
+  input[type="submit"]{
+    padding: 15px 30px;
+    height: 55px;
+    background: #11cdd4;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  input[type='submit']:hover {
+    background: #69cfd4;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .input input[type="text"]{
+    width: 600px;
+    height: 55px;
+    padding: 5px 10px;
+    background: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-weight:bold;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  input:focus {
+    outline: none !important;
+  }
+  
+  .card{
+    padding-top: 7px;
+    width: 50%;
+    background: #ffffff;
+    height: 40vh;
+    margin: 50px auto;
+    border-radius: 10px;
+  }
+  
+  header {
+      background-color: #e2feff;
+  }
+  
+  .close{
+    float: right;
+    margin-top: -2px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .card h2{
+    padding: 5px 0;
+    text-align: center;
+  }
+  
+  .card p{
+    text-align: center;
+    margin:40px 0;
+    font-size:20px;
+  }
+  
+  .weatherapp{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #e2feff;
+  }
